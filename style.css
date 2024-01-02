@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+table.five, .five td, .five th {
+  border: 5px double black;
+  padding:12px;
+}
+
+.five th {
+  background-color: black;
+  color: yellow;
+  font-family: Georgia;
+  font-size: 24px;
+}
+
+.five th:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.five td {
+  background-color: yellow;
+  color: black;
+  font-family: Arial;
+}
+
+.five td:hover {
+  background-color: white;
+  font-style: oblique;
+   color: red;
+}
